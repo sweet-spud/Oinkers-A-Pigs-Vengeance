@@ -9,7 +9,7 @@
   </details>
 <details>>
   <summary>Stone Pig</summary>
-  A slow-moving stone-based pig, who hits hard and will slow players when it makes contact.
+A slow-moving stone-based pig, who hits hard and will slow players when it makes contact.
   </details>
 <details>
   <summary>Iron Pig</summary>
