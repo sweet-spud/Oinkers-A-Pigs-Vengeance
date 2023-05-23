@@ -1,6 +1,6 @@
 # Oinkers-A-Pigs-Vengeance
 
-### A minecraft mod adding the Pig Dimension, featuring: new weapons, amor, tools, mobs, crops, and more. Has JEI compatibility
+### A minecraft mod adding the Pig Dimension, featuring: new weapons, amor, tools, mobs, crops, and more. Includes JEI compatibility.
 
 ## Mobs
 <details>
