@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"AAA",
+		"ABA",
+		"AAA"
+	],
+	"key": {
+		"A": {
+			"item": "minecraft:diamond"
+		},
+		"B": {
+			"item": "minecraft:porkchop"
+		}
+	},
+	"result": {
+		"item": "oinkers:carrot_medallion",
+		"count": 1
+	}
+}

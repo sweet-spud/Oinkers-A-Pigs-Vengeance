@@ -1,0 +1,24 @@
+{
+	"type": "oinkers:carrot_infusing",
+	"ingredients":[
+		{
+			"item": "minecraft:diamond_hoe"
+			
+		},
+		{
+			"item": "oinkers:carrot_ingot"
+		},
+		{
+			"item": "oinkers:carrot_ingot"
+		},
+		{
+			"item": "minecraft:carrot"
+		},
+		{
+			"item": "minecraft:carrot"
+		}
+	],
+	"output":{
+		"item": "oinkers:carrot_hoe"
+	}
+}

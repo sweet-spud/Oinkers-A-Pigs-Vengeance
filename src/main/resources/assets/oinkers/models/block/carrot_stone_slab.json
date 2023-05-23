@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "oinkers:block/carrot_stone",
+    "side": "oinkers:block/carrot_stone",
+    "top": "oinkers:block/carrot_stone"
+  }
+}

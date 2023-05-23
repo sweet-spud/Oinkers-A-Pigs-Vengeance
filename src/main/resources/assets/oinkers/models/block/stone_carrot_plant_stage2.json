@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "oinkers:block/stone_carrot_plant_stage2"
+  }
+}

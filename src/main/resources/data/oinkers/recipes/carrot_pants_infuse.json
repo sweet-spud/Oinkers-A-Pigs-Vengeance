@@ -1,0 +1,24 @@
+{
+	"type": "oinkers:carrot_infusing",
+	"ingredients":[
+		{
+			"item": "minecraft:diamond_leggings"
+			
+		},
+		{
+			"item": "oinkers:carrot_ingot"
+		},
+		{
+			"item": "oinkers:carrot_ingot"
+		},
+		{
+			"item": "oinkers:carrot_ingot"
+		},
+		{
+			"item": "oinkers:carrot_ingot"
+		}
+	],
+	"output":{
+		"item": "oinkers:carrot_legs"
+	}
+}

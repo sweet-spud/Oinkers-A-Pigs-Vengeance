@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"  A",
+		" AA",
+		"AAA"
+	],
+	"key": {
+		"A": {
+			"item": "oinkers:carrot_planks"
+		}
+	},
+	"result": {
+		"item": "oinkers:carrot_stairs",
+		"count": 4
+	}
+}

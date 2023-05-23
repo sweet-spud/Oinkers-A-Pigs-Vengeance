@@ -1,0 +1,6 @@
+{
+	"type": "forge:add_features",
+	"biomes": "oinkers:carrot_land",
+	"features": "oinkers:carrot_ore_placed",
+	"step": "underground_ores"
+}

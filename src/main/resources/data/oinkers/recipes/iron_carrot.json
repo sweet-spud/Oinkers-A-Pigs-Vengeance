@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"ABA",
+		"BCB",
+		"ABA"
+	],
+	"key": {
+		"A": {
+			"item": "minecraft:iron_ingot"
+		},
+		"B": {
+			"item": "minecraft:iron_block"
+		},
+		"C": {
+			"item": "minecraft:carrot"
+		}
+	},
+	"result": {
+		"item": "oinkers:iron_carrot",
+		"count": 1
+	}
+}

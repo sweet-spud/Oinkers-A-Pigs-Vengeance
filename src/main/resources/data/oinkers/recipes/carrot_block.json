@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"AAA",
+		"AAA",
+		"AAA"
+	],
+	"key": {
+		"A": {
+			"item": "oinkers:carrot_ingot"
+		}
+	},
+	"result": {
+		"item": "oinkers:carrot_block",
+		"count": 1
+	}
+}

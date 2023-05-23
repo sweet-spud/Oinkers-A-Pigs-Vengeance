@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "oinkers:block/carrot_log_top",
+    "side": "oinkers:block/carrot_log"
+  }
+}

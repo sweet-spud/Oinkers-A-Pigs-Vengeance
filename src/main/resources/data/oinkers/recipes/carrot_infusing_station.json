@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"A A",
+		"BCB",
+		"BBB"
+	],
+	"key": {
+		"A": {
+			"item": "oinkers:carrot_ingot"
+		},
+		"B": {
+			"item": "oinkers:carrot_stone"
+		},
+		"C": {
+			"item": "minecraft_glass"
+		}
+	},
+	"result": {
+		"item": "oinkers:carrot_infusing_station",
+		"count": 1
+	}
+}

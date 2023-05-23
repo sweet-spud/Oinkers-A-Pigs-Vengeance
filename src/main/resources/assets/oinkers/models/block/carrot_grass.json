@@ -1,0 +1,8 @@
+{
+	"parent": "block/cube_bottom_top",
+	"textures": {
+		"side": "oinkers:block/carrot_dirt",
+		"top": "oinkers:block/carrot_dirt_top",
+		"bottom": "oinkers:block/carrot_dirt_bottom"
+	}
+}

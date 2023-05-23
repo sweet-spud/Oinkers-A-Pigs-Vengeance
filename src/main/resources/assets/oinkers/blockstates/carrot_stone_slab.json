@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "oinkers:block/carrot_stone_slab"
+    },
+    "type=double": {
+      "model": "oinkers:block/carrot_stone"
+    },
+    "type=top": {
+      "model": "oinkers:block/carrot_stone_slab_top"
+    }
+  }
+}

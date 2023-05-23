@@ -1,0 +1,6 @@
+{
+"type": "forge:add_features",
+"biomes": "oinkers:carrot_land",
+"features":"oinkers:carrot_placed",
+"step": "vegetal_decoration"
+}

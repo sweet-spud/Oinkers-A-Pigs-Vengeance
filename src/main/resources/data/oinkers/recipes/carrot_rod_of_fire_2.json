@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"A A",
+		"BCB",
+		"BCB"
+	],
+	"key": {
+		"A": {
+			"item": "oinkers:carrot_ingot"
+		},
+		"B": {
+			"item": "minecraft:blaze_powder"
+		},
+		"C": {
+			"item": "minecraft:stick"
+		}
+	},
+	"result": {
+		"item": "oinkers:carrot_rod_of_fire_2",
+		"count": 1
+	}
+}

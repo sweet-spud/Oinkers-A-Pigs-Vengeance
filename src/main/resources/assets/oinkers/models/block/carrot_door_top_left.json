@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left",
+  "textures": {
+    "bottom": "oinkers:block/carrot_door_bottom",
+    "top": "oinkers:block/carrot_door_top"
+  }
+}

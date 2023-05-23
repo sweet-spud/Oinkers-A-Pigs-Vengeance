@@ -1,0 +1,112 @@
+{
+	// Biomes
+
+	"biome.oinkers.carrot_land": "Carrot_land",
+	
+	// Items
+	
+	"item.oinkers.flying_boat_item": "Flying Boat",
+	"item.oinkers.carrot_shank": "Carrot Shank" ,
+	"itemGroup.oinkers": "Oinkers",
+	"item.oinkers.stone_carrot": "Stone Carrot",
+	"item.oinkers.iron_carrot": "Iron Carrot",
+	"item.oinkers.gold_carrot": "Gold Carrot",
+	"item.oinkers.diamond_carrot": "Diamond Carrot",
+	
+	// Blocks
+	
+	"block.oinkers.stone_carrot_plant": "Stone Carrot Plant",
+	"block.oinkers.iron_carrot_plant": "Iron Carrot Plant",
+	"block.oinkers.gold_carrot_plant": "Gold Carrot Plant",
+	"block.oinkers.diamond_carrot_plant": "Diamond Carrot Plant",
+	"block.oinkers.carrot_cobblestone": "Carrot Cobblestone",
+	"block.oinkers.carrot_forge": "Carrot Forge",
+	"block.oinkers.carrot_infusing_station": "Carrot Infuser",
+	"block.oinkers.carrot_grass": "Carrot Grass",
+	"block.oinkers.carrot_dirt": "Carrot Dirt",
+	"block.oinkers.carrot_stone": "Carrot Stone",
+	"block.oinkers.carrot_log": "Carrotwood Log",
+  	"block.oinkers.carrot_planks": "Carrotwood Planks",
+	"block.oinkers.carrot_wood": "Carrotwood",
+	"block.oinkers.stripped_carrot_log": "Stripped Carrotwood Log",
+	"block.oinkers.stripped_carrot_wood": "Stripped Carrotwood",
+	"block.oinkers.carrot_leaves": "Carrotwood Leaves",
+	"block.oinkers.carrot_sapling": "Carrotwood Sapling",
+	"block.oinkers.carrot_stone_stairs": "Carrot Stone Stairs",
+	"block.oinkers.carrot_stone_slab": "Carrot Stone Slab",
+	"block.oinkers.carrot_stone_wall": "Carrot Stone Wall",
+	"block.oinkers.carrot_cobblestone_stairs": "Carrot Cobblestone Stairs",
+	"block.oinkers.carrot_cobblestone_slab": "Carrot Cobblestone Slab",
+	"block.oinkers.carrot_cobblestone_wall": "Carrot Cobblestone Wall",
+	"block.oinkers.carrot_stairs": "Carrotwood Stairs",
+	"block.oinkers.carrot_slab": "Carrotwood Slab",
+	"block.oinkers.carrot_fence": "Carrotwood Fence",
+	"block.oinkers.carrot_fence_gate": "Carrotwood Gate",
+	"block.oinkers.carrot_door": "Carrotwood Door",
+	"block.oinkers.carrot_button": "Carrotwood Button",
+	"block.oinkers.carrot_trapdoor": "Carrotwood Trapdoor",
+	"block.oinkers.carrot_pressure_plate": "Carrotwood Pressure Plate",
+	"block.oinkers.carrot_stone_button": "Carrot Stone Button",
+	"block.oinkers.carrot_stone_pressure_plate": "Carrot Stone Pressure Plate",
+	"block.oinkers.carrot_sign": "Carrotwood Sign",
+	
+
+	"item.oinkers.levitating_boots": "Boots of Levitation",
+	
+	
+	// Carrotanium Items Below
+	
+	"item.oinkers.carrot_rod_of_light_1": "Carrotanium Rod of Light I",
+	"item.oinkers.carrot_rod_of_light_2": "Carrotanium Rod of Light II",
+	"item.oinkers.carrot_rod_of_light_3": "Carrotanium Rod of Light III",
+	"item.oinkers.carrot_rod_of_fire_1": "Carrotanium Rod of Fire I",
+	"item.oinkers.carrot_rod_of_fire_2": "Carrotanium Rod of Fire II",
+	"item.oinkers.carrot_rod_of_fire_3": "Carrotanium Rod of Fire III",
+	"item.oinkers.carrot_rod_of_spring_1": "Carrotanium Rod of Spring I",
+	"item.oinkers.carrot_rod_of_spring_2": "Carrotanium Rod of Spring II",
+	"item.oinkers.carrot_rod_of_spring_3": "Carrotanium Rod of Spring III",
+	"item.oinkers.pig_medallion": "Pig Medallion",
+	
+	
+	"item.oinkers.carrot_shard": "Carrotanium Shard",
+	"item.oinkers.carrot_ingot": "Carrotanium Ingot",
+	"block.oinkers.carrot_ore": "Carrot Shard Ore",
+	"block.oinkers.carrot_block": "Carrotanium Block",
+	
+	"item.oinkers.carrot_sword": "Carrotanium Blade",
+	"item.oinkers.carrot_pick": "Carrotanium Pickaxe",
+	"item.oinkers.carrot_shovel": "Carrotanium Shovel",
+	"item.oinkers.carrot_axe": "Carrotanium Axe",
+	"item.oinkers.carrot_hoe": "Carrotanium Hoe",
+	
+	"effect.oinkers.carrot_thirst":	"Thirst of Carrot",
+	
+	"item.oinkers.carrot_helmet": "Carrotanium Helmet",
+	"item.oinkers.carrot_chest": "Carrotanium Chestplate",
+	"item.oinkers.carrot_legs": "Carrotanium Leggings",
+	"item.oinkers.carrot_boots": "Carrotanium Boots",
+	
+	// Entity Spawn Eggs
+	
+	"item.oinkers.wiggler_spawn_egg": "Wiggler Spawn Egg",
+	"item.oinkers.stone_pig_spawn_egg": "Stone Pig Spawn Egg",
+	
+	// Enchants
+	
+	
+	"enchantment.oinkers.atium_light": "Atium's Light",
+	"enchantment.oinkers.atium_fire": "Atium's Fire",
+	"enchantment.oinkers.atium_spring": "Atium's Spring",
+	"enchantment.oinkers.absorption": "Carrot's Absorption",
+	"enchantment.oinkers.speed": "Carrot's Speed",
+	"enchantment.oinkers.strength": "Carrot's Strength",
+	
+	// Entities
+	"entity.oinkers.wiggler": "Wiggler",
+	"entity.oinkers.stone_pig": "Stone Pig",
+	"entity.oinkers.iron_pig": "Iron Pig",
+	"entity.oinkers.gold_pig": "Gold Pig",
+	"entity.oinkers.iron_shard": "Iron Shard",
+	"entity.oinkers.gold_shard": "Gold Shard",
+	"entity.oinkers.flying_boat": "Flying Boat"
+}

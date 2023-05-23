@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values":[
+		"oinkers:carrot_log",
+		"oinkers:carrot_wood",
+		"oinkers:stripped_carrot_log",
+		"oinkers:stripped_carrot_wood"
+	]	
+}

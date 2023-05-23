@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"ABA",
+		"ABA"
+	],
+	"key": {
+		"A": {
+			"item": "oinkers:carrot_planks"
+		},
+		"B": {
+			"item": "minecraft:stick"
+		}
+	},
+	"result": {
+		"item": "oinkers:carrot_fence",
+		"count": 3
+	}
+}

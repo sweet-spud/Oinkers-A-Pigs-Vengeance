@@ -1,0 +1,15 @@
+{
+	"replace": false,
+	"values": [
+		"oinkers:carrot_ore",
+		"oinkers:carrot_infusing_station",
+		"oinkers:carrot_cobblestone_stairs",
+		"oinkers:carrot_cobblestone_slab",
+		"oinkers:carrot_cobblestone",
+		"oinkers:carrot_stone_pressure_plate",
+		"oinkers:carrot_stone_slab",
+		"oinkers:carrot_stone_stairs",
+		"oinkers:carrot_stone",
+		"oinkers:carrot_block"
+	]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+  	"oinkers:carrot_land"
+  ],
+  "spawners":
+  {
+    "type": "oinkers:gold_pig", // Type of mob to spawn
+    "weight": 25, // int, spawn weighting
+    "minCount": 1, // int, minimum pack size
+    "maxCount": 1 // int, maximum pack size
+  }
+}

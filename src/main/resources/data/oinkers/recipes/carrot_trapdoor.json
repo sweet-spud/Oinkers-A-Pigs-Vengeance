@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"AAA",
+		"AAA"
+	],
+	"key": {
+		"A": {
+			"item": "oinkers:carrot_planks"
+		}
+	},
+	"result": {
+		"item": "oinkers:carrot_trapdoor",
+		"count": 2
+	}
+}

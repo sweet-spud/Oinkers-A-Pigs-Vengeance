@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "oinkers:block/carrot_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "oinkers:block/carrot_log"
+    },
+    "axis=z": {
+      "model": "oinkers:block/carrot_log_horizontal",
+      "x": 90
+    }
+  }
+}

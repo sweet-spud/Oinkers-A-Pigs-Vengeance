@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"AAA"
+	],
+	"key": {
+		"A": {
+			"item": "oinkers:carrot_stone"
+		}
+	},
+	"result": {
+		"item": "oinkers:carrot_stone_slab",
+		"count": 6
+	}
+}

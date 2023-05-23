@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "oinkers:block/carrot_planks",
+    "side": "oinkers:block/carrot_planks",
+    "top": "oinkers:block/carrot_planks"
+  }
+}

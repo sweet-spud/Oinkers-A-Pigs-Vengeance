@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"ABA",
+		"BCB",
+		"ABA"
+	],
+	"key": {
+		"A": {
+			"item": "minecraft:gold_ingot"
+		},
+		"B": {
+			"item": "minecraft:gold_block"
+		},
+		"C": {
+			"item": "minecraft:carrot"
+		}
+	},
+	"result": {
+		"item": "oinkers:gold_carrot",
+		"count": 1
+	}
+}

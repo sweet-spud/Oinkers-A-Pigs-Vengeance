@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "oinkers:block/carrot_sapling"
+  },
+  "render_type": "cutout"
+}

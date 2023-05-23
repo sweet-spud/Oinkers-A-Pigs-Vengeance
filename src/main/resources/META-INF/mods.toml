@@ -1,0 +1,39 @@
+
+modLoader="javafml" #mandatory
+loaderVersion="[43,)" 
+license="All rights reserved"
+
+[[mods]] 
+modId="oinkers" 
+version="${file.jarVersion}" 
+
+displayName="Oinkers: A Pig's Vengeance" 
+
+logoFile="examplemod.png" 
+
+credits="Oinkers mod" 
+
+authors="CAIT Students" 
+
+
+description='''
+
+'''
+
+[[dependencies.testmod]] 
+    modId="forge" 
+    
+    mandatory=true 
+    
+    versionRange="[43,)" 
+    
+    ordering="NONE"
+    
+    side="BOTH"
+
+[[dependencies.testmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2,1.20)"
+    ordering="NONE"
+    side="BOTH"

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "oinkers:block/carrot_slab"
+    },
+    "type=double": {
+      "model": "oinkers:block/carrot_planks"
+    },
+    "type=top": {
+      "model": "oinkers:block/carrot_slab_top"
+    }
+  }
+}

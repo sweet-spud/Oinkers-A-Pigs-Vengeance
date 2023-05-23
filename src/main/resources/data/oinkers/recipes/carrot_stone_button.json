@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "oinkers:carrot_stone"
+		}
+	],
+	"result": {
+		"item": "oinkers:carrot_stone_button",
+		"count": 1
+	}
+}

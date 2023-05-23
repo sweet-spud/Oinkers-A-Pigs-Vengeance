@@ -1,0 +1,11 @@
+{
+  "type": "oinkers:dim",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "oinkers:dim",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "oinkers:carrot_land"
+    }
+  }
+}

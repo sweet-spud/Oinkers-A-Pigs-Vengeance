@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+  	"oinkers:carrot_land"
+  ],
+  "spawners":
+  {
+    "type": "oinkers:wiggler", // Type of mob to spawn
+    "weight": 100, // int, spawn weighting
+    "minCount": 4, // int, minimum pack size
+    "maxCount": 12 // int, maximum pack size
+  }
+}

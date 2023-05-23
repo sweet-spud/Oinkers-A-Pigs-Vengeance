@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "oinkers:carrot_cobblestone"
+  },
+  "result": "oinkers:carrot_cobblestone_slab"
+}

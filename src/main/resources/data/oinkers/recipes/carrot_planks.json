@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "oinkers:carrot_log"
+		}
+	],
+	"result": {
+		"item": "oinkers:carrot_planks",
+		"count": 4
+	}
+}

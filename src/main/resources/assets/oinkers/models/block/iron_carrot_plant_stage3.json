@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "oinkers:block/iron_carrot_plant_stage3"
+  }
+}

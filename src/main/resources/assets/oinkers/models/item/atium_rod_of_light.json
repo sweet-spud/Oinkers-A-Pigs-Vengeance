@@ -1,0 +1,6 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "oinkers:item/atium_rod_of_light"
+	}
+}	

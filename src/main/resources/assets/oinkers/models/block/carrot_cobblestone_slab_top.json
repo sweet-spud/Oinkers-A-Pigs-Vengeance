@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "oinkers:block/carrot_cobblestone",
+    "side": "oinkers:block/carrot_cobblestone",
+    "top": "oinkers:block/carrot_cobblestone"
+  }
+}
