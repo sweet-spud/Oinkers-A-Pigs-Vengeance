@@ -32,7 +32,7 @@
 <details>
   <summary>Carrotanium Rods</summary>
   A set of powerful magical rods made of Carrotanium, comprised of 3 power levels. Existing rods can be combined in the anvil to increase power. New rods can be crafted to be more powerful by using more Carrotanium ingots.
- &nbsp; <details>
+<details>
     <summary>Carrotanium Rod of Fire</summary>
     A powerful rod that launches fire charges on right click
   </details>
@@ -56,3 +56,10 @@
   As a complement to the Carrotanium Rod of Spring, these boots will cancel any fall damage, but they are quite weak.
   </details>
   
+  ## Crops
+  <details>
+  <summary>Stone Carrot</summary>
+  This carrot will give the player resistance, but will deal a small amount of damage and slowness. It can be grown on stone.
+  </details>
+  <details>
+  <summary>Iron Carrot
