@@ -32,6 +32,7 @@
 <details>
   <summary>Carrotanium Rods</summary>
   A set of powerful magical rods made of Carrotanium, comprised of 3 power levels. Existing rods can be combined in the anvil to increase power. New rods can be crafted to be more powerful by using more Carrotanium ingots.
+  
   <details>
     <summary>Carrotanium Rod of Fire</summary>
     A powerful rod that launches fire charges on right click
