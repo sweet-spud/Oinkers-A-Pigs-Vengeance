@@ -3,21 +3,21 @@
 ### A minecraft mod adding the Pig Dimension, featuring: new weapons, amor, tools, mobs, crops, and more. Has JEI compatibility
 
 ## Mobs
-&nbsp; <details>
+<details>
   <summary>Wiggler</summary>
-  A peaceful and lovable wiggling being, who roams the pig dimension in herds. Also drops a large amount of carrots.
+  &nbsp;A peaceful and lovable wiggling being, who roams the pig dimension in herds. Also drops a large amount of carrots.
   </details>
-&nbsp; <details>
+<details>
   <summary>Stone Pig</summary>
-  A slow-moving stone-based pig, who hits hard and will slow players when it makes contact.
+  &nbsp;A slow-moving stone-based pig, who hits hard and will slow players when it makes contact.
   </details>
-&nbsp; <details>
+<details>
   <summary>Iron Pig</summary>
-  A range attacking iron-based pig. It will keep a distance, firing its Iron Shard projectiles that will weaken players and deal damage.
+  &nbsp;A range attacking iron-based pig. It will keep a distance, firing its Iron Shard projectiles that will weaken players and deal damage.
   </details>
-&nbsp; <details>
+<details>
   <summary>Gold Pig</summary>
-  The most powerful of the pigs. The Gold Pig is a hybrid attacker that will shoot the player with its Gold Shard Projectiles (which deal slowness), and melee attack when in range.
+  &nbsp;The most powerful of the pigs. The Gold Pig is a hybrid attacker that will shoot the player with its Gold Shard Projectiles (which deal slowness), and melee attack when in range.
   </details>
 
 ## Weapons and Tools
