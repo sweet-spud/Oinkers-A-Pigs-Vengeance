@@ -13,7 +13,7 @@
   </details>
 <details>
   <summary>Iron Pig</summary>
-  &nbsp;A range attacking iron-based pig. It will keep a distance, firing its Iron Shard projectiles that will weaken players and deal damage.
+  &nbsp; A range attacking iron-based pig. It will keep a distance, firing its Iron Shard projectiles that will weaken players and deal damage.
   </details>
 <details>
   <summary>Gold Pig</summary>
