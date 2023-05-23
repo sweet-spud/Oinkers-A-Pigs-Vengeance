@@ -62,4 +62,14 @@
   This carrot will give the player resistance, but will deal a small amount of damage and slowness. It can be grown on stone.
   </details>
   <details>
-  <summary>Iron Carrot
+  <summary>Iron Carrot</summary>
+  This carrot will give the player strength. It can be grown on an iron block.
+  </details>
+  <details>
+  <summary>Gold Carrot</summary>
+  This carrot will give the player absorption and regeneration. It can be grown on a gold block.
+  </details>
+  <details>
+  <summary>Diamond Carrot</summary>
+  This carrot will give the player strength and regeneration. It can be grown on a diamond block.
+  </details>
