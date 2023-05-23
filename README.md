@@ -88,6 +88,6 @@
   The Pig Dimension features a new type of wood, Carrotwood, harvested from Carrot Trees in the dimension. This wood can be crafted into all the usualy items vanilla wood can, e.g. sticks, crafting table, stairs, sign, etc. The dimension also has the Carrot Stone and Carrot Cobblestone, which can also be used like vanilla stone (even in the stonecutter).
   </details>
 <details>
-  <summary>Flying Boat<\summary>
+  <summary>Flying Boat</summary>
     The Pig Dimension is host to the Mist, a new custom fluid. It is a transparent fluid, that, when seen from within, appears as an orange haze. It is not traversable with regular boats, but only by the Flying Boat.
     <\details>
