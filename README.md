@@ -90,3 +90,4 @@
 <details>
   <summary>Flying Boat<\summary>
     The Pig Dimension is host to the Mist, a new custom fluid. It is a transparent fluid, that, when seen from within, appears as an orange haze. It is not traversable with regular boats, but only by the Flying Boat.
+    <\details>
