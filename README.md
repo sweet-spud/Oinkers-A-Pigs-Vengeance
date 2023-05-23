@@ -73,3 +73,16 @@
   <summary>Diamond Carrot</summary>
   This carrot will give the player strength and regeneration. It can be grown on a diamond block.
   </details>
+
+## Dimension
+<details>
+  <summary>Pig Medallion</summary>
+  This is item allows the player to travel to the Pig Dimension; on right click it will teleport the player to the Pig Dimension.
+  </details>
+<details> 
+  <summary>Carrot Ore</summary>
+  The carrot ore is the source of Carrotanium. When mined it will drop Carrotanium shards, which can be crafted into a Carrotanium Ingot. It is found in the caves of the Pig Dimension.
+  </details>
+<details>
+  <summary>Carrotwood and Carrot Stone</summary>
+  The 
