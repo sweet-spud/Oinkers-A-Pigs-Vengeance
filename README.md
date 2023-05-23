@@ -1,4 +1,4 @@
-# Oinkers-A-Pigs-Vengeance
+# Oinkers: A Pig's Vengeance
 
 ### A minecraft mod adding the Pig Dimension, featuring: new weapons, amor, tools, mobs, crops, and more.
 
