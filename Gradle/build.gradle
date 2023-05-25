@@ -1,0 +1,155 @@
+plugins {
+    id 'eclipse'
+    id 'maven-publish'
+    id 'net.minecraftforge.gradle' version '5.1.+'
+    id 'org.parchmentmc.librarian.forgegradle' version '1.+'
+}
+
+version = '1.0'
+group = 'com.CAIT.oinkers' 
+archivesBaseName = 'oinkers'
+
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+println "Java: ${System.getProperty 'java.version'}, JVM: ${System.getProperty 'java.vm.version'} (${System.getProperty 'java.vendor'}), Arch: ${System.getProperty 'os.arch'}"
+minecraft {
+    mappings channel: 'parchment', version: '2022.11.27-1.19.2'
+
+    // accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg') // Currently, this location cannot be changed from the default.
+
+    runs {
+        client {
+            workingDirectory project.file('run')
+
+            property 'forge.logging.markers', 'REGISTRIES'
+
+            property 'forge.logging.console.level', 'debug'
+
+            property 'forge.enabledGameTestNamespaces', 'oinkers'
+
+            mods {
+                oinkers {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        server {
+            workingDirectory project.file('run')
+
+            property 'forge.logging.markers', 'REGISTRIES'
+
+            property 'forge.logging.console.level', 'debug'
+
+            property 'forge.enabledGameTestNamespaces', 'oinkers'
+
+            mods {
+                oinkers {
+                    source sourceSets.main
+                }
+            }
+        }
+
+       	gameTestServer {
+            workingDirectory project.file('run')
+
+            property 'forge.logging.markers', 'REGISTRIES'
+
+            property 'forge.logging.console.level', 'debug'
+
+            property 'forge.enabledGameTestNamespaces', 'oinkers'
+
+            mods {
+                oinkers {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        data {
+            workingDirectory project.file('run')
+
+            property 'forge.logging.markers', 'REGISTRIES'
+
+            property 'forge.logging.console.level', 'debug'
+
+           	args '--mod', 'oinkers', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+
+            mods {
+                oinkers {
+                    source sourceSets.main
+                }
+            }
+        }
+    }
+}
+
+
+sourceSets.main.resources { srcDir 'src/generated/resources' }
+
+repositories {
+	maven {
+    // location of the maven that hosts JEI files
+    name = "Progwml6 maven"
+    url = "https://dvs1.progwml6.com/files/maven/"
+  }
+  maven {
+    // location of a maven mirror for JEI files, as a fallback
+    name = "ModMaven"
+    url = "https://modmaven.dev"
+  }
+
+	maven { url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/' }
+}
+
+dependencies {
+   	minecraft 'net.minecraftforge:forge:1.19.2-43.2.0'
+   	
+   	implementation fg.deobf('software.bernie.geckolib:geckolib-forge-1.19:3.1.39')
+   	
+    // compile against the JEI API but do not include it at runtime
+  compileOnly(fg.deobf("mezz.jei:jei-${mc_version}-common-api:${jei_version}"))
+  compileOnly(fg.deobf("mezz.jei:jei-${mc_version}-forge-api:${jei_version}"))
+  // at runtime, use the full JEI jar for Forge
+  runtimeOnly(fg.deobf("mezz.jei:jei-${mc_version}-forge:${jei_version}"))
+	
+    
+}
+
+jar {
+    manifest {
+        attributes([
+                "Specification-Title"     : "oinkers",
+                "Specification-Vendor"    : "CAIT",
+                "Specification-Version"   : "1", // We are version 1 of ourselves
+                "Implementation-Title"    : project.name,
+                "Implementation-Version"  : project.jar.archiveVersion,
+                "Implementation-Vendor"   : "examplemodsareus",
+                "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
+        ])
+    }
+}
+
+// Example configuration to allow publishing using the maven-publish plugin
+// This is the preferred method to reobfuscate your jar file
+jar.finalizedBy('reobfJar')
+// However if you are in a multi-project build, dev time needs unobfed jar files, so you can delay the obfuscation until publishing by doing
+// publish.dependsOn('reobfJar')
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            artifact jar
+        }
+    }
+    repositories {
+        maven {
+            url "file://${project.projectDir}/mcmodsrepo"
+        }
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
+}
