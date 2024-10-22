@@ -1,6 +1,6 @@
 # Oinkers: A Pig's Vengeance
 
-### A minecraft mod adding the Pig Dimension, featuring: new weapons, amor, tools, mobs, crops, and more.
+### A Forge 1.19.3 minecraft mod adding the Pig Dimension, featuring: new weapons, amor, tools, mobs, crops, and more.
 
 - This mod is dependent on GeckoLib. Uses version 1.19-3.1.39, other 1.19.3 versions may work. GeckoLib: https://www.curseforge.com/minecraft/mc-mods/geckolib/files/4181377
 - This mod includes JEI (Just Enough Items) support.
